@@ -1,0 +1,25 @@
+            
+     .wrapper {
+         width: 300px; 
+         position: relative;
+         
+      }
+      
+      textarea {
+          box-sizing: border-box;
+          width: 300px; 
+          height: 300px;
+          resize: none;
+      }
+      
+      .btn {
+          width: 100px;
+          position: absolute;
+          right: 0;
+      }
+      
+      .retreat-left {
+          position: relative; 
+          left: 50px;
+      }
+  
