@@ -3,15 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Task 1 - Basics of JS</title>
-
-    <!-- ****** Styles ****** -->
-
     <link rel="stylesheet" href="./main.css">
 
 </head>
-
-<body
-
+<body>
+    <div class="container">
+		<div class="form-card">
+			<div class="form-title">
+				<h1>text area:</h1>
+			</div>
+			<div class="form-body">
+				<textarea id="input" placeholder="input..."></textarea>
+				<button id="submit">calculate</button>
+			</div>
+			<div class="form-footer">
+				<p>Number of words: 
+					<span id="number"></span>
+				</p>
+				<p>Lenght of the longest word: 
+					<span id="longest"></span>
+				</p>
+				<p>Length of the shortest word: 
+					<span id="shortest"></span>
+				</p>
+				<p>Average length of the words: 
+					<span id="average"></span>
+				</p>
+			</div>
+		</div>		
+	</div>
     <script src="./task1.js"></script>
 </body>
 </html>
