@@ -1,17 +1,33 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Task 1 - Basics of JS</title>
-
-    <!-- ****** Styles ****** -->
-
-    <link rel="stylesheet" href="./main.css">
-
+	<meta charset="UTF-8">
+	<title>Task1 - Basics of JS</title>
+	<link rel="stylesheet" href="./main.css">
 </head>
 
-<body
+<body>
 
-    <script src="./task1.js"></script>
+ <div class = "retreat-left" >
+
+  <div class="wrapper">
+   <label><h1>Text area:</h1></label>
+    <textarea id = "text">Some text </textarea>
+	
+    <div >
+        <button class = "btn" onclick = "handler()">Calculate</button>
+    </div>
+  </div>
+
+  <div>
+      <p id = "countOfWords"></p>
+      <p id = "maxWord"></p>
+      <p id = "minWord"></p>
+      <p id = "average"></p>
+  </div>
+</div>
+
+  <script src="./task1.js"></script>
 </body>
 </html>
