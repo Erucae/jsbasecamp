@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(Images/Hong_Kong.jpg);    
+}
+
+.allContent {
+    width: 70%;
+    height: 95%;
+    border: 1px solid black;
+    background-color: white;
+}
