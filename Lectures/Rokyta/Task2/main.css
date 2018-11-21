@@ -58,6 +58,7 @@ header img {
     font-size: 2em;
     font-weight: bold;
 }
+
 /*Styling section Personal skills*/
 .personalSkills h1 {
     color:  rgb(198,105,60);
@@ -65,14 +66,27 @@ header img {
     clear: left;
     
 }
-
-.wrapp li {
+/*Retreats for all sections and bottom border*/
+section {
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(198,105,60);
+    margin-left: 6em;
+    margin-right: 2em;
+}
+.wrapperForProgress {
+    text-align: end;
+    
+}
+.wrapperForProgress li {
   display: inline-block;
-  width: 18em;
-  margin-top: 10px;
+  width: 13em;
+  margin-top: 1em;
+  margin-right: 2.5em;
 }
 
-.wrapperForSkills {
-   display: flex;
-
+/*Styling section Education*/
+.education h1 {
+    color:  rgb(198,105,60);
+    text-align: center;
 }
+
