@@ -86,23 +86,22 @@
         </section>
         
          <form>
-              <div>
-                  <label for="email">Email<em>*</em></label> 
-                  <input type="text" id="email">
-              </div>
-              <div>
-                  <label for="message">Message</label>
-                  <textarea id="message" cols="30" rows="10" placeholder="Some text..."></textarea>
+              <div class="form">
+                 <div class="email">
+                      <label for="email"><strong>Email</strong><em style="color: red;">*</em></label> 
+                      <input class="common" type="text" id="email">
+                 </div>
+                 
+                  <label for="message"><strong>Message</strong></label>
+                  <textarea class="common" id="message" placeholder="Some text..."></textarea>
+                  <div class="btn">
+                      <input class="common" type="submit" value="Submit">
+                  </div>   
               </div> 
-              <div>
-                  <input type="submit" value="Submit">
-             </div>   
         </form>
     </main>
 
    </div>
    
-   
-    
 </body>
 </html>
