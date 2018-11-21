@@ -90,3 +90,21 @@ section {
     text-align: center;
 }
 
+/*Styling section Interests*/
+.interests h1{
+    color:  rgb(198,105,60);
+    text-align: center;
+}
+.wrapperForInterests li{
+    box-sizing: border-box;
+    display: inline-block;  
+    width: 10em;
+    height: 1.5em;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid;
+    border-color: rgb(198,105,60);
+    margin-bottom: 1em;
+    margin-right: 1.5em;
+   
+}
