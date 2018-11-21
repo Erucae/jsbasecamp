@@ -10,3 +10,42 @@ body {
     border: 1px solid black;
     background-color: white;
 }
+
+.about-me{
+    display: flex;    
+    justify-content: flex-end;
+}
+
+.about-me li{
+    flex-direction: row;
+    margin-right: 4em;
+
+}
+
+header li:first-child {
+    list-style-image: url("Images/phone-icon.gif");
+}
+
+header li:nth-child(2) {
+    list-style-image: url("Images/letter.gif");
+}
+
+header li:last-child {
+    list-style-image: url("Images/email.gif");
+}
+
+header img {
+    border: 3px solid black;
+    border-radius: 100%;
+    float: left;
+    margin: 0, 15, 10, 10;
+    
+}
+
+.personalSkills {
+    clear: left;
+}
+.flo {
+    display: flex;
+    justify-content: center;
+}
