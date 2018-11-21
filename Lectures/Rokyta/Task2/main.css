@@ -11,12 +11,13 @@ body {
     background-color: white;
 }
 
-.about-me{
+/*Styling header*/
+.info{
     display: flex;    
     justify-content: flex-end;
 }
 
-.about-me li{
+.info li{
     flex-direction: row;
     margin-right: 4em;
 
@@ -38,14 +39,40 @@ header img {
     border: 3px solid black;
     border-radius: 100%;
     float: left;
-    margin: 0, 15, 10, 10;
+    margin: 0 15px 30px 15px;
     
 }
 
-.personalSkills {
-    clear: left;
+.name {
+    position: relative;
+    right: -4em;
+    bottom: -3.5em;
 }
-.flo {
-    display: flex;
-    justify-content: center;
+.name::first-line {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.name>span {
+    color: rgb(198,105,60);
+    font-size: 2em;
+    font-weight: bold;
+}
+/*Styling section Personal skills*/
+.personalSkills h1 {
+    color:  rgb(198,105,60);
+    text-align: center;
+    clear: left;
+    
+}
+
+.wrapp li {
+  display: inline-block;
+  width: 18em;
+  margin-top: 10px;
+}
+
+.wrapperForSkills {
+   display: flex;
+
 }
